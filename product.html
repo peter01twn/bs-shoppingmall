@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>金牌西裝</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar bg-light p-3 d-flex align-items-center">
+            <div class="text-secondary">
+                <i class="fas fa-splotch"></i>
+                <a href="#" class="h5 mb-0">六角購物中心</a>
+            </div>
+            <div class="dropdown ml-auto mr-3">
+                <a href="#" class="position-relative" id="shoppingcar" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-shopping-cart text-secondary"></i>
+                    <div id="badge-amount" class="badge badge-pill badge-danger">3</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right p-3">
+                    <table class="table shoppingcar-table">
+                        <tbody>
+                            <tr>
+                                <td class="text-danger">
+                                    &#x2718
+                                </td>
+                                <td>金牌西裝</td>
+                                <td>1件</td>
+                                <td>$520</td>
+                            </tr>
+                            <tr>
+                                <td class="text-danger">
+                                    &#x2718
+                                </td>
+                                <td>冠軍女裝</td>
+                                <td>1件</td>
+                                <td>$480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-primary btn-block">結帳</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">服飾</a></li>
+                <li class="breadcrumb-item active" aria-current="page">金牌西裝</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-4 sticky-top">
+                <div class="sticky-top" style="top:10px;">
+                    <h1 class="d-inline-block mr-3">金牌西裝</h1>
+                    <span class="text-secondary">(加拉哈德版)</span>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <span class="text-secondary">售價 $1299</span>
+                        <div class="h3 ml-auto text-danger mb-0">
+                            <small>網路價 NT$</small>
+                            <strong>520</strong>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="d-flex align-items-center">
+                        <span>尺寸：</span>
+                        <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary active">
+                                <input type="radio" name="options" id="option1" autocomplete="off" checked>SM
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                                <input type="radio" name="options" id="option2" autocomplete="off">M
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                                <input type="radio" name="options" id="option3" autocomplete="off">L
+                            </label>
+                            <label class="btn btn-outline-secondary disabled">
+                                <input type="radio" name="options" id="option3" autocomplete="off" disabled>XL
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="number" class="form-control" id="number" min="1">
+                        <div class="input-group-append">
+                            <span class="input-group-text">件</span>
+                        </div>
+                        <a href="#" class="btn btn-primary ml-2">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h2>帥氣的西裝無人能敵</h2>
+                <p>This is a longer card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <p class="h3 text-center mb-2">合身剪裁</p>
+                <img class="mb-5" src="https://images.unsplash.com/photo-1472417583565-62e7bdeda490?w=634" style="width: 100%"
+                    alt="">
+                <p class="h3 text-center mb-2">簡單就好</p>
+                <img class="mb-5" src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?w=1500" style="width: 100%"
+                    alt="">
+                <p class="h3 text-center mb-2">不佔空間</p>
+                <img class="mb-5" src="https://images.unsplash.com/photo-1475530060488-75a6de1dca6f?w=675" style="width: 100%"
+                    alt="">
+                <div class="mb-3 p-3 rounded" style="background-color: #e7e8ea;">
+                    <h3 class="h2 text-center">購物說明</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, at! Totam, exercitationem
+                        repellat. Saepe facere amet expedita perferendis voluptatem dicta dignissimos tempora ut atque,
+                        rerum doloribus? Magni, blanditiis. Assumenda, distinctio!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light py-5">
+        <div class="d-flex justify-content-center">
+            <p class="mr-2 text-secondary">© Copright 2017 六角血拼賣賣</p>
+            <a href="#" class="mr-2 text-info">Instagrame</a>
+            <a href="#" class="mr-2 text-info">Facebook</a>
+            <a href="#" class="text-info">About</a>
+        </div>
+        <p class="text-center text-secondary">Made with Bootstrap4, thanks for your reading.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

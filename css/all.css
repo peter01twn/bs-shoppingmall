@@ -2,9 +2,6 @@
     background-position: center center;
     background-size: cover;
 }
-.shoppingcar-table{
-
-}
 .shoppingcar-table td{
     white-space: nowrap;
 }
@@ -29,4 +26,7 @@
 }
 #banner-slogan p:hover{
     color: rgb(0,0,0);
+}
+.btn.disabled{
+    pointer-events: none;
 }
