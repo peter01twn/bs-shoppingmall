@@ -20,22 +20,221 @@
                 <i class="fas fa-splotch"></i>
                 <a href="#" class="h5 mb-0">六角購物中心</a>
             </div>
-            <a href="#" class="ml-auto mr-3 position-relative">
-                <i class="fas fa-shopping-cart text-secondary"></i>
-                <div id="badge-amount" class="badge badge-pill badge-danger">3</div>
-            </a>
+            <div class="dropdown ml-auto mr-3">
+                <a href="#" class="position-relative" id="shoppingcar" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-shopping-cart text-secondary"></i>
+                    <div id="badge-amount" class="badge badge-pill badge-danger">3</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right p-3">
+                    <table class="table shoppingcar-table">
+                        <tbody>
+                            <tr>
+                                <td class="text-danger">
+                                    &#x2718
+                                </td>
+                                <td>金牌西裝</td>
+                                <td>1件</td>
+                                <td>$520</td>
+                            </tr>
+                            <tr>
+                                <td class="text-danger">
+                                    &#x2718
+                                </td>
+                                <td>冠軍女裝</td>
+                                <td>1件</td>
+                                <td>$480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-primary btn-block">結帳</a>
+                </div>
+            </div>
         </div>
-        <div id="flag" class="d-flex align-items-center bg-cover">
-            <div id="flag-slogan" class="mx-auto w-75 py-5">
-                <h2 class="font-weight-bold">買到剁手手！最後出清</h2>
-                <p class="d-none d-md-block mb-0">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <div id="banner" class="jumbotron jumbotron-fluid bg-cover">
+            <div class="container">
+                <div id="banner-slogan" class="py-4 pl-5">
+                    <h2 class="font-weight-bold">買到剁手手！最後出清</h2>
+                    <p class="d-none d-md-block mb-0">This is a modified jumbotron that occupies the entire horizontal
+                        space of its parent.</p>
+                </div>
             </div>
         </div>
     </header>
     <main class="container py-3">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-8"></div>
+            <div class="col-md-3">
+                <div class="list-group list-group-flush sticky-top" id="myList" role="tablist">
+                    <a href="#specialtystore" class="list-group-item list-group-item-action active" data-toggle="list"
+                        role="tab"> 金牌專賣店</a>
+                    <a href="#gift" class="list-group-item list-group-item-action" data-toggle="list" role="tab">禮品區</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled">影音商品</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled">寵物專用</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled">居家環境</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="input-group mb-3 w-25">
+                    <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-warning" type="button">search</button>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="specialtystore" role="tabpanel">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1458405074827-34e88e727a5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-outline-secondary">Left</button>
+                                            <button type="button" class="btn btn-outline-secondary">Middle</button>
+                                            <button type="button" class="btn btn-outline-secondary">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1490092218187-0713ea317e21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1494249589005-fe056518b0ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1458405074827-34e88e727a5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-outline-secondary">Left</button>
+                                            <button type="button" class="btn btn-outline-secondary">Middle</button>
+                                            <button type="button" class="btn btn-outline-secondary">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1490092218187-0713ea317e21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1494249589005-fe056518b0ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="gift" role="tabpanel">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1458405074827-34e88e727a5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-outline-secondary">Left</button>
+                                            <button type="button" class="btn btn-outline-secondary">Middle</button>
+                                            <button type="button" class="btn btn-outline-secondary">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card h-100">
+                                    <img src="https://images.unsplash.com/photo-1458405074827-34e88e727a5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body border-0">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-0">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-outline-secondary">Left</button>
+                                            <button type="button" class="btn btn-outline-secondary">Middle</button>
+                                            <button type="button" class="btn btn-outline-secondary">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="mt-5" aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </main>
     <footer class="bg-light py-5">
