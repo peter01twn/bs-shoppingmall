@@ -30,3 +30,9 @@
 .btn.disabled{
     pointer-events: none;
 }
+.alert-rounded{
+    border-radius: 50px;
+}
+table td{
+    vertical-align: middle!important;
+}
